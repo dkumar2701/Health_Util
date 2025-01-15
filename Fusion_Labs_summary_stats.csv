@@ -107,4 +107,4 @@
 105,cpt_anterior_approach,bool,0,0.0,,,,,,,,,569.0,19.69,2321.0,80.31
 106,cpt_lateral_approach,bool,0,0.0,,,,,,,,,12.0,0.42,2878.0,99.58
 107,cpt_posterior_approach,bool,0,0.0,,,,,,,,,2515.0,87.02,375.0,12.98
-108,High_Health_Utilizer,Int64,0,0.0,,,,,,,,,11.0,0.38,2879.0,99.62
+108,High_Health_Utilizer,Int64,0,0.0,,,,,,,,,683.0,23.63,2207.0,76.37
