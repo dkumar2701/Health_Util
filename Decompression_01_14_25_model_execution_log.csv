@@ -1,1 +1,3 @@
 model_name,timestamp,execution_time_minutes,execution_time_seconds
+TrainTestSplit,2025-01-17 19:24:48,8,48
+ASA,2025-01-17 19:42:27,0,2
