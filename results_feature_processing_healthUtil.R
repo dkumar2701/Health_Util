@@ -4,7 +4,7 @@ library(shapviz)
 library(progress)
 library(data.table)
 
-data_name = "Decompression_NoLabs_01-19-25"
+data_name = "Decompression_Labs_01-21-25"
 set.seed(1)
 
 csv_files = list.files(pattern="\\.csv$")
@@ -14,7 +14,7 @@ names(data_list) <- tools::file_path_sans_ext(csv_files)
 # Fusion: 79 features, 3812 pts, Decompression: 76 features, 10302 pts
 # New fusion cohort: 79 feautres, 3581 pts
 # Newest Fusion: 2890 x 79, Decompression: 10128 x 76
-# Newest Labs: 2890 x 
+# Newest Labs: 2890 x 106, Decompression: 10128 x 103
 ######### SAVED DATA HERE CALLED "CSV.RDATA" ###########
 
 
@@ -92,7 +92,8 @@ summarized_results <- results_file %>%
     
   )
 
-
+#sort
+summarized_results <- summarized_results[order(-summarized_results$AUC_mean), ]
 write_csv(summarized_results, paste(data_name, "_summarized_results.csv", sep = "_"))
 
 features_sum_n_groups <- count(distinct(features_file, Procedure, Outcome, Features, Model, Feature_Name))
