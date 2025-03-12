@@ -1,0 +1,8 @@
+model_name,timestamp,execution_time_minutes,execution_time_seconds
+TrainTestSplit,2025-01-19 14:25:56,67,6
+ASA,2025-01-19 14:39:36,0,2
+ENet,2025-01-19 15:41:32,61,55
+XGB,2025-01-19 17:35:30,29,5
+Dummy,2025-01-19 17:35:35,0,4
+NN,2025-01-19 18:56:38,81,3
+RF,2025-01-20 00:09:32,79,20
