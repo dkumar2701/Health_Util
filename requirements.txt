@@ -12,3 +12,4 @@ imbalanced-learn
 scikit-optimize
 miceforest
 tune_sklearn
+setuptools == 41.0.0 # Required for Ray Tune
